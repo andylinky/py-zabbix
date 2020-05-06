@@ -154,7 +154,7 @@ class ZabbixAPI(object):
     >>> from pyzabbix import ZabbixAPI
     >>> z = ZabbixAPI('https://zabbix.server', user='Admin', password='zabbix')
     >>> # Get API Version
-    >>> z.api_info.version()
+    >>> z.apiinfo.version()
     >>> u'2.2.1'
     >>> # or
     >>> z.do_request('apiinfo.version')
